@@ -1,0 +1,146 @@
+.logomarca{font-family: 'HandelGothic BT';font-size:305.7317;fill:#FFFAFA;stroke-width: 3px!;    stroke: #484848!;}
+.logomarca2 {font-family: 'HandelGothic BT';font-size:117.6537;fill:#FFFAFA; stroke-width: 3px;    stroke: #484848;}
+.corpo { fill: #8CC63F;stroke-width: 1px;    stroke: #484848;}
+.folha-1 { fill: #FBB03B;}
+.folha-2 { fill: #8CC63F;}
+.fundo-folha {fill:#FFFFFF;}
+
+.animate-desenho {  stroke: #000;  stroke-width: 1px;  stroke-dasharray: 730;  animation: 6s desenho forwards;}
+.animate-desenho2 {  stroke: #000;  stroke-width: 1px;  stroke-dasharray: 300;  animation: 8s desenhos forwards;}
+
+@keyframes desenhos {
+  0% {    fill-opacity: 0;    stroke-dashoffset: 853;  }
+  70% {    fill-opacity: 0;    stroke: #000;  }
+  100% {    fill-opacity: 1;    stroke-dashoffset: 0;    stroke: none;  }}
+
+@keyframes desenho {
+  0% {    fill-opacity: 0;    stroke-dashoffset: 5853;  }
+  70% {    fill-opacity: 0;    stroke: #000;  }
+  100% {    fill-opacity: 1;    stroke-dashoffset: 0;    stroke: none;  }}
+
+.animate-folhas-1 {
+  -moz-animation: movimento 2.15s infinite;
+  -webkit-animation: movimento 2.15s infinite;
+  animation: movimento 2.15s infinite; }
+
+.animate-folhas-2 {
+  -moz-animation: movimentos 2.15s infinite;
+  -webkit-animation: movimentos 2.15s infinite;
+  animation: movimentos 2.15s infinite; }
+
+
+@keyframes movimentos{
+    0% {    transform: rotate(0deg); }   
+    50% {    transform: rotate(-0.5deg); }  
+    100% {    transform: rotate(0deg);  }
+}
+
+@keyframes movimento{    
+  0% {    transform: rotate(0deg);  }   
+  50% {    transform: rotate(0.5deg);  }
+  100% {    transform: rotate(0deg);  }
+}
+
+
+.animate-left {
+    -moz-animation: posLeft 2s ease-in-out;
+    -webkit-animation: posLeft 2s ease-in-out;
+    animation: posLeft 2s ease-in-out; 
+  }
+
+.animate-left-2 {
+    -moz-animation: posLeft 2s ease-in-out;
+    -webkit-animation: posLeft 2s ease-in-out;
+    animation: posLeft 2s ease-in-out; 
+  }
+
+  @-moz-keyframes posLeft {
+    from {
+      -moz-transform: translate(-1000%, 0);
+      transform: translate(-1000%, 0); 
+    }
+
+    to {
+      -moz-transform: translate(0, 0);
+      transform: translate(0, 0); 
+    } 
+  }
+
+  @-webkit-keyframes posLeft {
+    from {
+      -webkit-transform: translate(-1000%, 0);
+      transform: translate(-1000%, 0); 
+    }
+
+    to {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); 
+    } 
+  }
+  @keyframes posLeft {
+    from {
+      -moz-transform: translate(-1000%, 0);
+      -ms-transform: translate(-1000%, 0);
+      -webkit-transform: translate(-1000%, 0);
+      transform: translate(-1000%, 0); 
+    }
+
+    to {
+      -moz-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); 
+    } 
+  }
+
+.animate-right {
+    -moz-animation: posRight 2s ease-in-out;
+    -webkit-animation: posRight 2s ease-in-out;
+    animation: posRight 2s ease-in-out; 
+
+  }
+
+  .animate-right-2 {
+    -moz-animation: posRight 2s ease-in-out;
+    -webkit-animation: posRight 2s ease-in-out;
+    animation: posRight 2s ease-in-out; 
+  }
+
+  @-moz-keyframes posRight {
+    from {
+      -moz-transform: translate(1500%, 0);
+      transform: translate(1500%, 0); 
+    }
+
+    to {
+      -moz-transform: translate(0, 0);
+      transform: translate(0, 0); 
+      } 
+    }
+  @-webkit-keyframes posRight {
+    from {
+      -webkit-transform: translate(1500%, 0);
+      transform: translate(1500%, 0); 
+    }
+
+    to {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); 
+      } 
+    }
+  @keyframes posRight {
+    from {
+      -moz-transform: translate(1500%, 0);
+      -ms-transform: translate(1500%, 0);
+      -webkit-transform: translate(1500%, 0);
+      transform: translate(1500%, 0); 
+    }
+
+    to {
+      -moz-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); 
+      } 
+    }
+@font-face {	font-family: 'HandelGothic BT';	src: url('./fonts/HandelGothicBT-Regular.eot');	src: local('Handel Gothic BT'), local('HandelGothicBT-Regular'),		url('./fonts/HandelGothicBT-Regular.eot?#iefix') format('embedded-opentype'),	url('./fonts/HandelGothicBT-Regular.woff') format('woff'),		url('./fonts/HandelGothicBT-Regular.ttf') format('truetype');font-weight: normal;	font-style: normal;}
