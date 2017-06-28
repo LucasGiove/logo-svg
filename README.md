@@ -1,2 +1,1 @@
-# Logo SVG
-Logo com animação em CSS
+# Logo SVG e Animação com CSS 
